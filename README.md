@@ -61,3 +61,5 @@ Run somehow with gunicorn.
 # Screenshot
 
 ![Screenshot](screenshot.png)
+
+#add if python2.7 in windows10 Microsoft Visual C++ Compiler for Python 2.7 is required for Django Compressor

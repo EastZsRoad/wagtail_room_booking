@@ -43,7 +43,7 @@ class SignupForm(forms.Form):
             label=_("Telefon"),
             widget=forms.TextInput(), required=True)
     street = forms.CharField(
-            label=_("Straße"),
+            label=_("strabe"),
             max_length=100,
     )
     plz_city = forms.CharField(
@@ -197,7 +197,7 @@ class PasswordResetTokenForm(forms.Form):
 class SettingsForm(forms.Form):
     email = forms.EmailField(label=_("Email"), required=True)
     street = forms.CharField(
-            label=_("Straße"),
+            label=_("strabe"),
             max_length=100,
     )
     phone = forms.CharField(

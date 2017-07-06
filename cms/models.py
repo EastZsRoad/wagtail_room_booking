@@ -55,9 +55,9 @@ class StandardIndexPage(Page):
             related_name='+'
     )
 
-    search_fields = Page.search_fields + (
+    search_fields = Page.search_fields + [
         index.SearchField('intro'),
-    )
+    ]
 
 
 StandardIndexPage.content_panels = [
@@ -82,10 +82,10 @@ class StandardPage(Page):
             related_name='+'
     )
 
-    search_fields = Page.search_fields + (
+    search_fields = Page.search_fields + [
         index.SearchField('intro'),
         index.SearchField('body'),
-    )
+    ]
 
 
 StandardPage.content_panels = [
